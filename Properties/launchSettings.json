@@ -1,0 +1,37 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:12876",
+      "sslPort": 44318
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "userbot/status",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "api_id": "1632710",
+        "api_hash": "47c650e6e239c58ea2185678468c6567",
+        "phone_number": "+34635025835"
+      }
+    },
+    "WTelegramClientTestASP": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "userbot/status",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "api_id": "1632710",
+        "api_hash": "47c650e6e239c58ea2185678468c6567",
+        "phone_number": "+34635025835"
+      }
+    }
+  }
+}
